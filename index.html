@@ -1,93 +1,175 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Code coverage report for All files</title>
-    <meta charset="utf-8" />
-    <link rel="stylesheet" href="prettify.css" />
-    <link rel="stylesheet" href="base.css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style type='text/css'>
-        .coverage-summary .sorter {
-            background-image: url(sort-arrow-sprite.png);
-        }
-    </style>
+  <meta charset="UTF-8">
+  <title>Syntax Coding Club</title>
+  <style>
+    body {
+      background: #fff;
+      color: #222;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: #f7c700;
+      text-align: center;
+      padding: 18px 0 10px 0;
+    }
+    header img {
+      height: 84px;
+      margin-bottom: 10px;
+    }
+    h1 {
+      margin: 0;
+      font-size: 2.1em;
+      color: #111;
+      font-weight: bold;
+    }
+    .slogan {
+      color: #222;
+      font-size: 1.02em;
+      margin-bottom: 5px;
+      letter-spacing: 1px;
+      font-style: italic;
+    }
+    nav {
+      background: #222;
+      text-align: center;
+      padding: 8px 0;
+    }
+    nav a {
+      color: #ffe600;
+      text-decoration: none;
+      font-weight: bold;
+      margin: 0 20px;
+      font-size: 1.07em;
+      transition: color 0.2s;
+    }
+    nav a:hover {
+      color: #fff;
+    }
+    section {
+      padding: 20px 15px 5px 15px;
+      max-width: 700px;
+      margin: auto;
+    }
+    article {
+      background: #fffde6;
+      border: 1px solid #ffde59;
+      border-radius: 10px;
+      margin: 18px 0 0 0;
+      padding: 14px 18px 8px 18px;
+    }
+    h2 {
+      color: #f7c700;
+      font-size: 1.3em;
+      margin-top: 0;
+    }
+    ul {
+      padding-left: 18px;
+      margin: 5px 0 11px 0;
+    }
+    .gallery {
+      display: flex;
+      gap: 18px;
+      margin: 15px 0;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .gallery img {
+      height: 76px;
+      width: 83px;
+      object-fit: cover;
+      border: 2px solid #f7c700;
+      background: #fff;
+      border-radius: 8px;
+      transition: transform 0.2s;
+    }
+    .gallery img:hover {
+      transform: scale(1.08);
+      border-color: #222;
+    }
+    .instagram {
+      display: inline-block;
+      background: #f7c700;
+      color: #222;
+      font-weight: bold;
+      padding: 7px 18px;
+      text-align: center;
+      margin: 10px 0;
+      text-decoration: none;
+      border-radius: 6px;
+      border: 2px solid #222;
+      transition: background 0.2s, color 0.2s;
+    }
+    .instagram:hover {
+      background: #222;
+      color: #ffe600;
+    }
+    footer {
+      margin-top: 18px;
+      background: #111;
+      color: #ffe600;
+      text-align: center;
+      font-size: 1em;
+      padding: 12px 0;
+      letter-spacing: 1px;
+    }
+  </style>
 </head>
 <body>
-<div class='wrapper'>
-  <div class='pad1'>
-    <h1>
-      /
-    </h1>
-    <div class='clearfix'>
-      <div class='fl pad1y space-right2'>
-        <span class="strong">100% </span>
-        <span class="quiet">Statements</span>
-        <span class='fraction'>26/26</span>
+  <header>
+    <img src="WhatsApp Image 2025-09-22 at 15.18.05.jpeg" alt="Syntax Club Logo">
+    <h1>SYNTAX Coding Club</h1>
+    <div class="slogan">empowering ideas into code</div>
+  </header>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#activities">Activities</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <section id="about">
+    <article>
+      <h2>About Syntax Club</h2>
+      <p>The Syntax Coding Club is a community of passionate coders and innovators at our college. As an associate member, our aim is to empower ideas and encourage simple, effective problem-solving through code.</p>
+      <ul>
+        <li>Collaborative coding sessions</li>
+        <li>Workshops & tutorials</li>
+        <li>Project showcases</li>
+      </ul>
+    </article>
+  </section>
+  <section id="activities">
+    <article>
+      <h2>Club Activities</h2>
+      <ul>
+        <li>Weekly coding practice</li>
+        <li>Fun contests & hackathons</li>
+        <li>Mini-projects & peer review</li>
+      </ul>
+    </article>
+  </section>
+  <section id="gallery">
+    <article>
+      <h2>Gallery</h2>
+      <div class="gallery">
+        <img src="Screenshot 2025-10-30 at 11.26.06 PM.png" alt="Club Activity 1">
+        <img src="Screenshot 2025-10-30 at 11.22.33 PM.png" alt="Club Activity 2">
+        <img src="Screenshot 2025-10-30 at 11.24.34 PM.png" alt="Club Activity 3">
       </div>
-      <div class='fl pad1y space-right2'>
-        <span class="strong">100% </span>
-        <span class="quiet">Branches</span>
-        <span class='fraction'>6/6</span>
-      </div>
-      <div class='fl pad1y space-right2'>
-        <span class="strong">100% </span>
-        <span class="quiet">Functions</span>
-        <span class='fraction'>4/4</span>
-      </div>
-      <div class='fl pad1y space-right2'>
-        <span class="strong">100% </span>
-        <span class="quiet">Lines</span>
-        <span class='fraction'>26/26</span>
-      </div>
-    </div>
-  </div>
-  <div class='status-line high'></div>
-<div class="pad1">
-<table class="coverage-summary">
-<thead>
-<tr>
-   <th data-col="file" data-fmt="html" data-html="true" class="file">File</th>
-   <th data-col="pic" data-type="number" data-fmt="html" data-html="true" class="pic"></th>
-   <th data-col="statements" data-type="number" data-fmt="pct" class="pct">Statements</th>
-   <th data-col="statements_raw" data-type="number" data-fmt="html" class="abs"></th>
-   <th data-col="branches" data-type="number" data-fmt="pct" class="pct">Branches</th>
-   <th data-col="branches_raw" data-type="number" data-fmt="html" class="abs"></th>
-   <th data-col="functions" data-type="number" data-fmt="pct" class="pct">Functions</th>
-   <th data-col="functions_raw" data-type="number" data-fmt="html" class="abs"></th>
-   <th data-col="lines" data-type="number" data-fmt="pct" class="pct">Lines</th>
-   <th data-col="lines_raw" data-type="number" data-fmt="html" class="abs"></th>
-</tr>
-</thead>
-<tbody><tr>
-	<td class="file high" data-value="array-back/"><a href="array-back/index.html">array-back/</a></td>
-	<td data-value="100" class="pic high"><div class="chart"><div class="cover-fill cover-full" style="width: 100%;"></div><div class="cover-empty" style="width:0%;"></div></div></td>
-	<td data-value="100" class="pct high">100%</td>
-	<td data-value="26" class="abs high">26/26</td>
-	<td data-value="100" class="pct high">100%</td>
-	<td data-value="6" class="abs high">6/6</td>
-	<td data-value="100" class="pct high">100%</td>
-	<td data-value="4" class="abs high">4/4</td>
-	<td data-value="100" class="pct high">100%</td>
-	<td data-value="26" class="abs high">26/26</td>
-	</tr>
-
-</tbody>
-</table>
-</div><div class='push'></div><!-- for sticky footer -->
-</div><!-- /wrapper -->
-<div class='footer quiet pad2 space-top1 center small'>
-  Code coverage
-  generated by <a href="http://istanbul-js.org/" target="_blank">istanbul</a> at Sat Jun 24 2017 21:40:08 GMT+0100 (BST)
-</div>
-</div>
-<script src="prettify.js"></script>
-<script>
-window.onload = function () {
-        if (typeof prettyPrint === 'function') {
-            prettyPrint();
-        }
-};
-</script>
-<script src="sorter.js"></script>
+    </article>
+  </section>
+  <section id="contact">
+    <article>
+      <h2>Connect With Us</h2>
+      <a class="instagram" href="https://www.instagram.com/quad_syntaxclub?igsh=MWc2ZWNsejhkd3JuNA==" target="_blank">Instagram</a>
+    </article>
+  </section>
+  <footer>
+      2025 Syntax Coding Club &mdash; empowering ideas into code
+  </footer>
 </body>
 </html>
